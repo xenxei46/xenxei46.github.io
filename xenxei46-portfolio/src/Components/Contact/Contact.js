@@ -36,7 +36,6 @@ function Contact (){
                     <div> <FontAwesomeIcon icon={faEnvelope}/></div>
                     <div> <FontAwesomeIcon icon={faEnvelope}/></div>
                     <div> <FontAwesomeIcon icon={faEnvelope}/></div>
-                    ..
                 </div>
             </div>
         </div>
