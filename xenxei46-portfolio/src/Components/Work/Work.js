@@ -1,13 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
-
+import { FaFolder } from "react-icons/fa";
 function Work (){
     return(
     <div className="work  items-center w-[80%] lg:w-[80%] h-full " id="work">
       <div className="flex justify-center items-center h-[90%]">
         <div class="grid gird-cols-12 grid-cols-3 gap-4">
-              <div className="bg-zinc-900 w-20 h-20 md:w-40 md:h-40 lg:w-40 lg:h-28 hover:bg-green-400 hover:text-black flex justify-center items-center rounded-lg"><div><h2>2wj.com</h2><p>Api: Angular</p></div></div>
+              <div className="bg-zinc-900 w-20 h-20 md:w-40 md:h-40 lg:w-40 lg:h-28 hover:bg-green-400 hover:text-black flex justify-center items-center rounded-lg"><div><div className="bg-red-400 flex justify-center w-full"><FaFolder/></div><h2 className="">Angular</h2><p>2WJ.com</p></div></div>
               <div className="bg-zinc-900 w-20 h-20 md:w-40 md:h-40 lg:w-40 lg:h-28 hover:bg-green-400 hover:text-black flex justify-center items-center rounded-lg"><div><h2>2wj.com</h2><p>Api: Angular</p></div></div>
               <div className="bg-zinc-900 w-20 h-20 md:w-40 md:h-40 lg:w-40 lg:h-28 hover:bg-green-400 hover:text-black flex justify-center items-center rounded-lg"><div><h2>2wj.com</h2><p>Api: Angular</p></div></div>
               <div className="bg-zinc-900 w-20 h-20 md:w-40 md:h-40 lg:w-40 lg:h-28 hover:bg-green-400 hover:text-black flex justify-center items-center rounded-lg"><div><h2>2wj.com</h2><p>Api: Angular</p></div></div>
@@ -19,5 +19,9 @@ function Work (){
     </div>
     )
 }
+
+
+
+
 
 export default Work;

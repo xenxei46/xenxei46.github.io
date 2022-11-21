@@ -24,23 +24,23 @@ function About (){
                     </div>       
             </div>
             <div className="skill-rate lg:h-90 lg:w-[50%] md:h-90 md:w-[50%] w-[50%] h-80 rounded-md">
-                  <h4 className="p-4">Skill rate</h4>
+                  <h4 className="p-4">My Skils</h4>
                   <div className="skills lg:px-4 md:px-4">
-                     <div className="front-end border-b-2 border-red-700 flex px-4">
+                     <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">Front-end</span><br></br> Development</span>
-                        <span className=" flex-1 flex justify-end"><span><FontAwesomeIcon icon={faCaretRight}/> <br></br><FontAwesomeIcon icon={faCaretRight}/></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
-                     <div className="front-end border-b-2 border-red-700 flex px-4">
+                     <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">Back-end</span><br></br> Development</span>
-                        <span className=" flex-1 flex justify-end"><span><FontAwesomeIcon icon={faCaretRight}/> <br></br><FontAwesomeIcon icon={faCaretRight}/></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
-                     <div className="front-end border-b-2 border-red-700 flex px-4">
+                     <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">UI/UX</span><br></br> Design</span>
-                        <span className=" flex-1 flex justify-end"><span><FontAwesomeIcon icon={faCaretRight}/> <br></br><FontAwesomeIcon icon={faCaretRight}/></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
-                     <div className="front-end border-b-2 border-red-700 flex px-4">
+                     <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">Technical</span><br></br> Writting</span>
-                        <span className=" flex-1 flex justify-end"><span><FontAwesomeIcon icon={faCaretRight}/> <br></br><FontAwesomeIcon icon={faCaretRight}/></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
                   </div>
 

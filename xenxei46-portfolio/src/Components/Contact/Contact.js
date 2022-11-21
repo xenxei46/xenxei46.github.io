@@ -2,7 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
 // import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
- import user from '../../assets/user.jpg';
+import user from '../../assets/user.jpg';
+import { FaLinkedin, FaFacebookF, FaTwitterSquare, FaDribbble, FaFolder } from "react-icons/fa";
 
 function Contact (){
     return(
@@ -26,16 +27,18 @@ function Contact (){
                 <div className="flex">
                 <span className="flex items-center px-2">
                     <FontAwesomeIcon icon={faPhone}/>
-                </span> 
+                </span>
+                <a href="tel:+234-906-814-0123"> 
                 <p>+234 0906 814 0123</p>
+                </a>
                 </div> 
             </div>
             <div className="flex justify-center">
                 <div className="grid gird-cols-6 grid-cols-4 gap-4">
-                    <div> <FontAwesomeIcon icon={faEnvelope}/></div>
-                    <div> <FontAwesomeIcon icon={faEnvelope}/></div>
-                    <div> <FontAwesomeIcon icon={faEnvelope}/></div>
-                    <div> <FontAwesomeIcon icon={faEnvelope}/></div>
+                    <div> <FaLinkedin/></div>
+                    <div> <FaFacebookF/></div>
+                    <div> <FaTwitterSquare/></div>
+                    <div> <FaDribbble/></div>
                 </div>
             </div>
         </div>
