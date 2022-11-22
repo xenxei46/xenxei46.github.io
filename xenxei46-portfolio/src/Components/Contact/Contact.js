@@ -35,10 +35,10 @@ function Contact (){
             </div>
             <div className="flex justify-center">
                 <div className="grid gird-cols-6 grid-cols-4 gap-4">
-                    <div> <FaLinkedin/></div>
-                    <div> <FaFacebookF/></div>
-                    <div> <FaTwitterSquare/></div>
-                    <div> <FaDribbble/></div>
+                    <div> <a href="https://www.linkedin.com/in/wisdom-john-ikoi-409567198/"><FaLinkedin/></a></div>
+                    <div> <a href="https://web.facebook.com/wisdom.johnikoi"><FaFacebookF/></a></div>
+                    <div> <a href="https://twitter.com/wisdom_ikoi"><FaTwitterSquare/></a></div>
+                    <div> <a href="https://dribbble.com/"><FaDribbble/></a></div>
                 </div>
             </div>
         </div>
