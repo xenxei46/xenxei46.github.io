@@ -28,19 +28,19 @@ function About (){
                   <div className="skills lg:px-4 md:px-4">
                      <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">Front-end</span><br></br> Development</span>
-                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work">70%<FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
                      <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">Back-end</span><br></br> Development</span>
-                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work">10%<FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
                      <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">UI/UX</span><br></br> Design</span>
-                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="https://dribbble.com/">40%<FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
                      <div className="front-end border-b-2 border-green-400 flex px-4">
                         <span className=" flex-1"><span className="">Technical</span><br></br> Writting</span>
-                        <span className=" flex-1 flex justify-end items-center"><span><a href="#work"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
+                        <span className=" flex-1 flex justify-end items-center"><span><a href="https://medium.com/@wisdomjohnikoi">60%<FontAwesomeIcon icon={faCaretRight}/><br></br></a><a href="https://dev.to/xenxei46/installing-angular-cli-locally-globally-3lei"><FontAwesomeIcon icon={faCaretRight}/></a></span></span>
                      </div>
                   </div>
 
